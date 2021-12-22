@@ -6,7 +6,10 @@ This shows how to use NSOperations to simplify app architecture. It includes sev
 
 ## Modifications
 
-The original project was made in 2015. It used the 1st Swift version that's why many changes have been done by me to make it compilable and runnuble in XCode 13 and Swift 5: re-written KVO for Operation's state, updated deprecated methods and enums names, resolved type casts and errors handling, updated project's build settings and etc. During this process I was trying to keep the original logic as much as possible.
+The original project was made in 2015. It used the 1st Swift version that's why many changes have been done by me to make it compilable and runnuble in XCode 13 and Swift 5: re-written KVO for Operation's state, updated deprecated methods and enums names, resolved type casts and errors handling, changed @escaping in closures, updated project's build settings and etc. During this process I was trying to keep the original logic as much as possible.
+
+P.S.
+When you run the app for the first time just swipe down to preload the data.
 
 
 ### Original video session
